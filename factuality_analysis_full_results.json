@@ -1,0 +1,304 @@
+{
+  "original_generation": {
+    "generated_texts": [
+      "D",
+      "Haters will hate.",
+      "Muslims.",
+      "D",
+      "1",
+      "s",
+      "muslims",
+      "All of these.",
+      "Hahahahaha"
+    ],
+    "reference_texts": [
+      "This article is talking about one particular man, not all Muslims. You can't generalise this, most Muslims only eat halal but don't care what others do!",
+      "That's a sweeping generalisation, and it's not true at all. Sexual assault happens in all communities, and is committed by people from all backgrounds and religions.",
+      "Every religion has extremists, but the vast majority of Muslims condemn the actions of terrorist groups like the Taliban. They do not reflect Muslims as a whole.",
+      "Being gay isn't a mental illness, it's a perfectly normal lifestyle.",
+      "There are still plenty of white men on tv, some just happen to be bisexual. How is it an attack on masculinity? Bisexual men can be masculine, and are sometimes more secure in their masculinity than many straight men as their masculinity isn't dependent on heterosexuality!",
+      "No bisexual men are bisexual men. You can be attracted to more than one gender you know.",
+      "This article sounds like a conspiracy theory. British Muslims just want to live alongside everybody else, there's no 'agenda' to take over.",
+      "Muslims don't want to 'take over', even if they abide by sharia themselves, they're just trying to live alongside everybody else",
+      "Actually, Muslim countries like Turkey, Pakistan, and Jordan take more refugees than any other countries. The percentage of refugees that come to the UK is tiny in comparison to the full amount of displaced people from conflicts in Syria, Afghanistan, etc."
+    ],
+    "contexts": [
+      "Hater: Muslims want to ban non-halal meat!! They are taking control of our country.\nHater: Here's an article about it.",
+      "Hater: All muslims are rapists",
+      "Hater: Muslims want to invade us and enforce sharia law!\nHater: How do you explain the Taliban then?",
+      "Hater: homosexuals are mentally ill. No one in their right mind would think this perverted behaviour is okay.",
+      "Hater: Making tv characters bisexual is an attack on white masculinity. We are being erased.",
+      "Hater: Bisexual men are just fags in denial",
+      "Hater: Muslims are taking over our country! This article explains how they want to replace to white British population.",
+      "Hater: All these muslims coming over here want to enforce sharia law and take over. We cannot submit!!!",
+      "Hater: Why don\u2019t all these Muslim refugees go to other wonderful Muslim countries? Am I missing something?"
+    ],
+    "target_groups": [
+      "MUSLIMS",
+      "MUSLIMS",
+      "MUSLIMS",
+      "LGBT+",
+      "LGBT+",
+      "LGBT+",
+      "MUSLIMS",
+      "MUSLIMS",
+      "MUSLIMS"
+    ]
+  },
+  "factuality_analysis": {
+    "factuality_scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.6,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "consistency_scores": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1111111111111111,
+      0.1111111111111111,
+      0.0
+    ],
+    "hallucination_flags": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "specificity_scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.7,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "detailed_analysis": [
+      {
+        "text": "D",
+        "factuality_indicators": [],
+        "potential_issues": [],
+        "confidence_score": 0.5,
+        "length": 1
+      },
+      {
+        "text": "Haters will hate.",
+        "factuality_indicators": [],
+        "potential_issues": [],
+        "confidence_score": 0.5,
+        "length": 3
+      },
+      {
+        "text": "Muslims.",
+        "factuality_indicators": [],
+        "potential_issues": [],
+        "confidence_score": 0.5,
+        "length": 1
+      },
+      {
+        "text": "D",
+        "factuality_indicators": [],
+        "potential_issues": [],
+        "confidence_score": 0.5,
+        "length": 1
+      },
+      {
+        "text": "1",
+        "factuality_indicators": [],
+        "potential_issues": [],
+        "confidence_score": 0.6,
+        "length": 1
+      },
+      {
+        "text": "s",
+        "factuality_indicators": [],
+        "potential_issues": [],
+        "confidence_score": 0.5,
+        "length": 1
+      },
+      {
+        "text": "muslims",
+        "factuality_indicators": [],
+        "potential_issues": [],
+        "confidence_score": 0.5,
+        "length": 1
+      },
+      {
+        "text": "All of these.",
+        "factuality_indicators": [],
+        "potential_issues": [
+          "Potential overgeneralization"
+        ],
+        "confidence_score": 0.5,
+        "length": 3
+      },
+      {
+        "text": "Hahahahaha",
+        "factuality_indicators": [],
+        "potential_issues": [],
+        "confidence_score": 0.5,
+        "length": 1
+      }
+    ],
+    "avg_factuality": 0.5111111111111111,
+    "avg_consistency": 0.024691358024691357,
+    "hallucination_rate": 0.0,
+    "avg_specificity": 0.5222222222222223
+  },
+  "intervention_results": {
+    "generated_texts": [
+      "Generate counterspeech for: Hater: Hundreds of Muslim men, all of fighting age, arriving in boats every day. This is what invasion looks like, we must be ready to fight back.\nHater: With the amount of them coming over they would have a lot of manpower if they came together to take over the country.\nTarget: MUSLIMS\nCounterspeech: muslims",
+      "Generate counterspeech for: Hater: Bisexuals are confused, they can't make up their minds. They are mentally ill.\nHater: It's confusing, sounds like they haven't figured out their sexuality.\nTarget: LGBT+\nCounterspeech: It's confusing, sounds like they haven't.",
+      "Generate counterspeech for: Hater: Jews are the reason the lgbt agenda is gaining so much power in the West. They want to destroy our traditions and way of life.\nHater: It's part of their plan to decimate the white race and European culture. Look it up, there's lots of info about it, try googling the 'the great replacement'.\nTarget: JEWS\nCounterspeech: It's not.",
+      "Generate counterspeech for: Hater: Muslims want to ban non-halal meat!! They are taking control of our country.\nHater: Here's an article about it.\nTarget: MUSLIMS\nCounterspeech: muslims want to ban muslims",
+      "Generate counterspeech for: Hater: All muslims are rapists\nTarget: MUSLIMS\nCounterspeech: MUSLIMS",
+      "Generate counterspeech for: Hater: Superman is now bisexual, apparently. Why is he still called superMAN?\nHater: Doesn't sound very manly, sounds gay.\nTarget: LGBT+\nCounterspeech: Doesn't sound very manly, sounds homosexual.",
+      "Generate counterspeech for: Hater: Just seen a video on facebook about 'drag queen story time' where men dressed as women indoctrinate kids into thinking this is 'normal'. What is the world coming to?\nHater: But showing kids this stuff? Is that safe? What are they going to grow up thinking?\nTarget: LGBT+\nCounterspeech: No.",
+      "Generate counterspeech for: Hater: Superman is now bisexual?? He has become a bit of a slag - with no morals and a predator he\u2019s happy to get it away with anyone he comes across.\nTarget: LGBT+\nCounterspeech: Superman.",
+      "Generate counterspeech for: Hater: According to this research, 3 in 5 Muslims support extremism and terrorism. There is no such thing as a moderate Muslim.\nHater: Here's a link to it.\nTarget: MUSLIMS\nCounterspeech: MUSLIMS",
+      "Generate counterspeech for: Hater: Muslims want to invade us and enforce sharia law!\nHater: How do you explain the Taliban then?\nTarget: MUSLIMS\nCounterspeech: How do you explain them?",
+      "Generate counterspeech for: Hater: We are letting Muslim terrorists come to our country as'refugees'. This has got to stop.\nHater: So you're saying none of them are terrorists? We know that's a lie, Muslim migrants commit crimes all the time.\nTarget: MUSLIMS\nCounterspeech: muslims",
+      "Generate counterspeech for: Hater: Poofs spread AIDS\nHater: How are we meant to know which ones have it though?\nTarget: LGBT+\nCounterspeech: How are we meant to know which ones do?",
+      "Generate counterspeech for: Hater: It's vile that we are confusing children with bisexual characters on tv\u2026 whatever next? trans SpongeBob?\nTarget: LGBT+\nCounterspeech: It's vile that we are confusing children with bisexualities on TV...",
+      "Generate counterspeech for: Hater: Jews want us to submit to their agenda. They are intent on decimating the white race and corrupting Europe and the West.\nHater: They are the reason we have mass migration, feminism, the lgbt agenda, it's all part of destroying white Europeans and their culture.\nTarget: JEWS\nCounterspeech: Jews.",
+      "Generate counterspeech for: Hater: Jews want to take over the world and decimate Western civilisation!\nHater: Have you heard of the great replacement? You should look it up. Jews are using their power to ruin the West and replace white people.\nTarget: JEWS\nCounterspeech: Jews.",
+      "Generate counterspeech for: Hater: homosexuals are mentally ill. No one in their right mind would think this perverted behaviour is okay.\nTarget: LGBT+\nCounterspeech: Homosexuals are mentally ill",
+      "Generate counterspeech for: Hater: Shouted across the road to complement a bird the other day and she told be to f*** off. You can't say anything anymore without it being seen as'sexist'! PC gone mad.\nTarget: WOMEN\nCounterspeech: Hater :",
+      "Generate counterspeech for: Hater: Making tv characters bisexual is an attack on white masculinity. We are being erased.\nTarget: LGBT+\nCounterspeech: Making TV characters bi is an attack on white masculinity.",
+      "Generate counterspeech for: Hater: Why don\u2019t all these Muslim refugees go to other wonderful Muslim countries? Am I missing something?\nHater: Why do we have so many coming here across the channel then? We\u2019re full, there\u2019s no room for them here.\nHater: How is it our fault if there\u2019s a war in some third world country?\nTarget: MUSLIMS\nCounterspeech: How is it our fault?",
+      "Generate counterspeech for: Hater: There\u2019s a rumour that Terry Gilliam\u2019s new production has been cancelled because the theatre is concerned about his anti-trans statements. More cancel culture madness!\nHater: Its dangerous censorship and an assault on free speech.\nTarget: LGBT+\nCounterspeech: I don't care.",
+      "Generate counterspeech for: Hater: I\u2019ve never met a happy gay person. It\u2019s a miserable, perverted lifestyle. Those people need help.\nHater: People who take that route in life have mental issues, I doubt homophobia is the reason they're miserable since our society is so 'woke' now.\nTarget: LGBT+\nCounterspeech: Homosexuality",
+      "Generate counterspeech for: Hater: I don't know how girls nowadays expect to be treated with respect when they go out wearing next to nothing, looking like sluts.\nTarget: WOMEN\nCounterspeech: women.",
+      "Generate counterspeech for: Hater: Bisexual men are just fags in denial\nTarget: LGBT+\nCounterspeech: Bisexual men are just fags in denial",
+      "Generate counterspeech for: Hater: Gay people need to live separately from us so we don't catch AIDS from them.\nHater: It's a gay disease, straight people don't get AIDS\nTarget: LGBT+\nCounterspeech: It's a disease.",
+      "Generate counterspeech for: Hater: Muslims are taking over our country! This article explains how they want to replace to white British population.\nTarget: MUSLIMS\nCounterspeech: muslims",
+      "Generate counterspeech for: Hater: All these muslims coming over here want to enforce sharia law and take over. We cannot submit!!!\nTarget: MUSLIMS\nCounterspeech: MUSLIMS",
+      "Generate counterspeech for: Hater: Jews always pretend to be persecuted victims when in reality they're the ones controlling us.\nHater: There are a disproportionate amount of Jews in positions of power like government, media, banks etc. There's an imbalance of power.\nTarget: JEWS\nCounterspeech: Jews control the media.",
+      "Generate counterspeech for: Hater: Soon it will be'sexist' to even talk to birds, everyone gets offended so easily these days you can't say anything.\nTarget: WOMEN\nCounterspeech: Hater :",
+      "Generate counterspeech for: Hater: Hundreds of Muslim men, all of fighting age, arriving in boats every day. This is what invasion looks like, we must be ready to fight back.\nTarget: MUSLIMS\nCounterspeech: MUSLIMS",
+      "Generate counterspeech for: Hater: Making tv characters bisexual is an attack on white masculinity. We are being erased.\nHater: There's nothing masculine about being bent\nTarget: LGBT+\nCounterspeech: There's nothing masculine about being bent.",
+      "Generate counterspeech for: Hater: Why don\u2019t all these Muslim refugees go to other wonderful Muslim countries? Am I missing something?\nTarget: MUSLIMS\nCounterspeech: Why don't they?"
+    ],
+    "contexts": [
+      "Hater: Hundreds of Muslim men, all of fighting age, arriving in boats every day. This is what invasion looks like, we must be ready to fight back.\nHater: With the amount of them coming over they would have a lot of manpower if they came together to take over the country.",
+      "Hater: Bisexuals are confused, they can't make up their minds. They are mentally ill.\nHater: It's confusing, sounds like they haven't figured out their sexuality.",
+      "Hater: Jews are the reason the lgbt agenda is gaining so much power in the West. They want to destroy our traditions and way of life.\nHater: It's part of their plan to decimate the white race and European culture. Look it up, there's lots of info about it, try googling the 'the great replacement'.",
+      "Hater: Muslims want to ban non-halal meat!! They are taking control of our country.\nHater: Here's an article about it.",
+      "Hater: All muslims are rapists",
+      "Hater: Superman is now bisexual, apparently. Why is he still called superMAN?\nHater: Doesn't sound very manly, sounds gay.",
+      "Hater: Just seen a video on facebook about 'drag queen story time' where men dressed as women indoctrinate kids into thinking this is 'normal'. What is the world coming to?\nHater: But showing kids this stuff? Is that safe? What are they going to grow up thinking?",
+      "Hater: Superman is now bisexual?? He has become a bit of a slag - with no morals and a predator he\u2019s happy to get it away with anyone he comes across.",
+      "Hater: According to this research, 3 in 5 Muslims support extremism and terrorism. There is no such thing as a moderate Muslim.\nHater: Here's a link to it.",
+      "Hater: Muslims want to invade us and enforce sharia law!\nHater: How do you explain the Taliban then?",
+      "Hater: We are letting Muslim terrorists come to our country as 'refugees'. This has got to stop.\nHater: So you're saying none of them are terrorists? We know that's a lie, Muslim migrants commit crimes all the time.",
+      "Hater: Poofs spread AIDS\nHater: How are we meant to know which ones have it though?",
+      "Hater: It's vile that we are confusing children with bisexual characters on tv\u2026 whatever next? trans SpongeBob?",
+      "Hater: Jews want us to submit to their agenda. They are intent on decimating the white race and corrupting Europe and the West.\nHater: They are the reason we have mass migration, feminism, the lgbt agenda, it's all part of destroying white Europeans and their culture.",
+      "Hater: Jews want to take over the world and decimate Western civilisation!\nHater: Have you heard of the great replacement? You should look it up. Jews are using their power to ruin the West and replace white people.",
+      "Hater: homosexuals are mentally ill. No one in their right mind would think this perverted behaviour is okay.",
+      "Hater: Shouted across the road to complement a bird the other day and she told be to f*** off. You can't say anything anymore without it being seen as 'sexist'! PC gone mad.",
+      "Hater: Making tv characters bisexual is an attack on white masculinity. We are being erased.",
+      "Hater: Why don\u2019t all these Muslim refugees go to other wonderful Muslim countries? Am I missing something?\nHater: Why do we have so many coming here across the channel then? We\u2019re full, there\u2019s no room for them here.\nHater: How is it our fault if there\u2019s a war in some third world country?",
+      "Hater: There\u2019s a rumour that Terry Gilliam\u2019s new production has been cancelled because the theatre is concerned about his anti-trans statements. More cancel culture madness!\nHater: Its dangerous censorship and an assault on free speech.",
+      "Hater: I\u2019ve never met a happy gay person. It\u2019s a miserable, perverted lifestyle. Those people need help.\nHater: People who take that route in life have mental issues, I doubt homophobia is the reason they're miserable since our society is so 'woke' now.",
+      "Hater: I don't know how girls nowadays expect to be treated with respect when they go out wearing next to nothing, looking like sluts.",
+      "Hater: Bisexual men are just fags in denial",
+      "Hater: Gay people need to live separately from us so we don't catch AIDS from them.\nHater: It's a gay disease, straight people don't get AIDS",
+      "Hater: Muslims are taking over our country! This article explains how they want to replace to white British population.",
+      "Hater: All these muslims coming over here want to enforce sharia law and take over. We cannot submit!!!",
+      "Hater: Jews always pretend to be persecuted victims when in reality they're the ones controlling us.\nHater: There are a disproportionate amount of Jews in positions of power like government, media, banks etc. There's an imbalance of power.",
+      "Hater: Soon it will be 'sexist' to even talk to birds, everyone gets offended so easily these days you can't say anything.",
+      "Hater: Hundreds of Muslim men, all of fighting age, arriving in boats every day. This is what invasion looks like, we must be ready to fight back.",
+      "Hater: Making tv characters bisexual is an attack on white masculinity. We are being erased.\nHater: There's nothing masculine about being bent",
+      "Hater: Why don\u2019t all these Muslim refugees go to other wonderful Muslim countries? Am I missing something?"
+    ],
+    "target_groups": [
+      "MUSLIMS",
+      "LGBT+",
+      "JEWS",
+      "MUSLIMS",
+      "MUSLIMS",
+      "LGBT+",
+      "LGBT+",
+      "LGBT+",
+      "MUSLIMS",
+      "MUSLIMS",
+      "MUSLIMS",
+      "LGBT+",
+      "LGBT+",
+      "JEWS",
+      "JEWS",
+      "LGBT+",
+      "WOMEN",
+      "LGBT+",
+      "MUSLIMS",
+      "LGBT+",
+      "LGBT+",
+      "WOMEN",
+      "LGBT+",
+      "LGBT+",
+      "MUSLIMS",
+      "MUSLIMS",
+      "JEWS",
+      "WOMEN",
+      "MUSLIMS",
+      "LGBT+",
+      "MUSLIMS"
+    ]
+  },
+  "evaluation": {
+    "automatic_metrics": {
+      "bleu_original": 0.1,
+      "bleu_intervention": 0.1,
+      "rouge1_original": 0.2,
+      "rouge1_intervention": 0.2,
+      "rouge2_original": 0.1,
+      "rouge2_intervention": 0.1
+    },
+    "factuality_comparison": {
+      "factuality_improvement": 0.011111111111111183,
+      "consistency_improvement": 0,
+      "hallucination_reduction": 0.0,
+      "specificity_improvement": 0.09444444444444444,
+      "original_factuality": 0.5111111111111111,
+      "intervention_factuality": 0.5222222222222223
+    },
+    "quality_analysis": {
+      "length_comparison": {
+        "avg_original_length": 1.4444444444444444,
+        "avg_intervention_length": 37.45161290322581,
+        "length_change": 36.007168458781365
+      },
+      "diversity_analysis": {},
+      "improvement_areas": [
+        "Increased detail in responses",
+        "Improved factuality"
+      ]
+    },
+    "improvement_summary": {
+      "factuality_improvement_pct": 2.173913043478275
+    }
+  },
+  "metadata": {
+    "timestamp": "2025-11-24T20:20:42.162650",
+    "model_used": "microsoft/DialoGPT-medium",
+    "num_examples": 50
+  }
+}

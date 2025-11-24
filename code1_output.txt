@@ -1,0 +1,21 @@
+Final Evaluation Results:
+INFO:__main__:eval_loss: 3.6469
+INFO:__main__:eval_bleu: 0.0000
+INFO:__main__:eval_rouge1: 0.1837
+INFO:__main__:eval_rouge2: 0.0277
+INFO:__main__:eval_rougeL: 0.1231
+INFO:__main__:eval_bert_score_f1: 0.0000
+INFO:__main__:eval_runtime: 26.2207
+INFO:__main__:eval_samples_per_second: 1.0680
+INFO:__main__:eval_steps_per_second: 0.5340
+INFO:__main__:epoch: 3.0000
+INFO:__main__:Model saved successfully!
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+
+Test Case 1:
+Input: ['Immigrants are causing all the problems in this country', "They take our jobs and don't respect our culture"]
+Generated counterspeech: There are a lot of reasons why people don't want to come to this country.
+
+Test Case 2:
+Input: ["Women don't belong in leadership positions", "They're too emotional to make rational decisions"]
+Generated counterspeech: There are a lot of reasons why women don't get elected to leadership positions.
