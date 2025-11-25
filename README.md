@@ -17,9 +17,9 @@ This mini-project aims to analyze the factuality of informative counterspeech ge
 3. **RAGCounterspeechGenerator:** Knowledge-enhanced generation
 - **Evaluation:** Multi-dimensional factuality metrics and intervention effectiveness
 ### Output Example
-1. **Input:** "Generate counterspeech for: Hater: I think that all Muslims are just sick and have a negative impact on Western society.\nHater: I don't want to accept that Islam is a religion of peace. Islam is a disease infecting the entire world.\nTarget: MUSLIMS"
--  **Output:** "Counterspeech: Islam is a religion of peace.“
-2. **Input:** "Generate counterspeech for: Hater: feminists are angry women\nHater: Women are subhuman, they don't have the brain to fight for themselves or for men.\nTarget: WOMEN"
--  **Output:** "Counterspeech: womensrights“
-3. **Input:** "Generate counterspeech for: Hater: Who the fuck are you? We are gutful sick of Vagina Misandrists trying to undermine White powerful makes, when they themselves are just envious, incompetent and useless.\nTarget: WOMEN"
-- **Output:** "Counterspeech: Who are you?"
+1. - **Input:** "Generate counterspeech for: Hater: I think that all Muslims are just sick and have a negative impact on Western society.\nHater: I don't want to accept that Islam is a religion of peace. Islam is a disease infecting the entire world.\nTarget: MUSLIMS"
+   - **Output:** "Counterspeech: Islam is a religion of peace.“
+2. - **Input:** "Generate counterspeech for: Hater: feminists are angry women\nHater: Women are subhuman, they don't have the brain to fight for themselves or for men.\nTarget: WOMEN"
+   - **Output:** "Counterspeech: womensrights“
+3. - **Input:** "Generate counterspeech for: Hater: Who the fuck are you? We are gutful sick of Vagina Misandrists trying to undermine White powerful makes, when they themselves are just envious, incompetent and useless.\nTarget: WOMEN"
+   - **Output:** "Counterspeech: Who are you?"
