@@ -12,9 +12,9 @@ This mini-project aims to analyze the factuality of informative counterspeech ge
 ## Code 2: Factuality Analysis with Intervention
 - **Model:** DialoGPT-medium with RAG enhancement
 - **Components:**
-1. FactualityAnalyzer: Comprehensive factuality assessment
-2. InferenceTimeIntervention: Real-time correction mechanisms
-3.  RAGCounterspeechGenerator: Knowledge-enhanced generation
+1. **Factuality Analyzer:** Comprehensive factuality assessment
+2. **Inference Time Intervention:** Real-time correction mechanisms
+3. **RAGCounterspeechGenerator:** Knowledge-enhanced generation
 - **Evaluation:** Multi-dimensional factuality metrics and intervention effectiveness
 ### Output Example
 1. "Generate counterspeech for: Hater: I think that all Muslims are just sick and have a negative impact on Western society.\nHater: I don't want to accept that Islam is a religion of peace. Islam is a disease infecting the entire world.\nTarget: MUSLIMS\nCounterspeech: Islam is a religion of peace.“
